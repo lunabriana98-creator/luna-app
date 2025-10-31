@@ -184,7 +184,14 @@ class LunaCoach:
             total_words_removed=max(0, words_removed),
             total_changes=len(changes)
         )
-
+        
+# Initialize - MUST BE FIRST!
+st.set_page_config(
+    page_title="Luna Confidence Coach",
+    page_icon="🌙",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 # Custom CSS
 st.markdown("""
 <style>
