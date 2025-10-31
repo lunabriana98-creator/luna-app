@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Coherence - Transform Wishy-Washy Text</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px;
+            max-width: 800px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 { 
+            font-size: 48px; 
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .formula { 
+            font-size: 24px; 
+            color: #666; 
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .demo {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .before, .after {
+            margin: 15px 0;
+        }
+        .label {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        .text {
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+        }
+        .after .text {
+            border-color: #667eea;
+            font-weight: 500;
+        }
+        .cta {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+        .cta:hover {
+            transform: translateY(-2px);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            text-align: center;
+            padding: 20px;
+        }
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌙 Luna Coherence</h1>
+        <div class="formula">Ψ² + Δ² = Ω²</div>
+        <p style="font-size: 20px; color: #333; margin-bottom: 20px;">
+            Stop sounding uncertain. Transform wishy-washy text into confident communication.
+        </p>
+
+        <div class="demo">
+            <div class="before">
+                <div class="label">BEFORE (Chaos):</div>
+                <div class="text">
+                    "I think maybe this could possibly be an interesting approach, perhaps we should consider it?"
+                </div>
+            </div>
+            <div style="text-align: center; margin: 20px 0;">↓</div>
+            <div class="after">
+                <div class="label">AFTER (Coherence):</div>
+                <div class="text">
+                    "This is an interesting approach we should consider."
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📧</div>
+                <strong>Confident Emails</strong>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💼</div>
+                <strong>Clear Reports</strong>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🚀</div>
+                <strong>Better LinkedIn</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="#" class="cta" onclick="alert('Coming soon! Enter your email to get early access.'); return false;">
+                Try Luna Free →
+            </a>
+            <p style="margin-top: 15px; color: #666;">
+                No credit card required • Free tier available
+            </p>
+        </div>
+
+        <div style="margin-top: 50px; text-align: center; color: #999; font-size: 14px;">
+            Created by Briana Luna
+        </div>
+    </div>
+</body>
+</html>
